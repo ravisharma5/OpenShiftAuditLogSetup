@@ -1,4 +1,4 @@
-# OpenShiftAuditLogSetup
+# OpenShift Audit log forwarding to S3
 Repository with instructions on how to set Audit log forwarding to S3 from OpenShift
 
 We will use LokiStack with S3 for storing logs from OCP.
