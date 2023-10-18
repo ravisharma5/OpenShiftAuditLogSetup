@@ -4,10 +4,11 @@ Repository with instructions on how to set Audit log forwarding to S3 from OpenS
 We will use LokiStack with S3 for storing logs from OCP.
 
 First, we will configure the logging stack in OpenShift with LokiStack:
-	- ClusterLogging CR
-	- LokiStack
+- ClusterLogging CR
+- LokiStack
 Then we will configure the Log retention policy as well as Log forwarding using:
-	- ClusterLogForwarder
+- ClusterLogForwarder
+
 ### Steps:
 
 #### 1. Assign your user to cluster-admin or dedicated-admin group
