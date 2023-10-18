@@ -6,6 +6,7 @@ We will use LokiStack with S3 for storing logs from OCP.
 First, we will configure the logging stack in OpenShift with LokiStack:
 - ClusterLogging CR
 - LokiStack
+
 Then we will configure the Log retention policy as well as Log forwarding using:
 - ClusterLogForwarder
 
